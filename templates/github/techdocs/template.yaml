@@ -79,8 +79,7 @@ spec:
       action: fetch:template
       input:
         # url: ../../../skeletons/catalog-info/
-        targetPath: ./skeletons/catalog-info/
-        url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates
+        url: https://github.com/PatAKnight/red-hat-developer-hub-software-templates/tree/main/skeletons/catalog-info
         values:
           # Gitops specific values
           partOf: ${{ parameters.componentName }}
